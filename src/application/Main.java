@@ -30,8 +30,7 @@ public class Main {
 				list.add(new Individual(name, anualIncome, healthExpenditures));
 				
 		}
-			else {
-				
+			else {			
 				System.out.println("Number of employees: ");
 				int numberOfEmployees = sc.nextInt();
 				list.add(new Company(name, anualIncome,numberOfEmployees));
